@@ -1,0 +1,93 @@
+[
+    {
+        "tech": "Angular",
+        "stack": [
+            {
+                "type": "Basic",
+                "topics": [
+                    "Angular bootstrapping",
+                    "Entry component Vs bootstrap comp.",
+                    "Angular new features included in latest version.",
+                    "Difference b/w various compilers (JIT vs AOT).",
+                    "Various life cycle hooks in Angular.",
+                    "Components vs Directives.",
+                    "Change Detection in Angular.",
+                    "View Encapsulation",
+                    "Dependency Injection",
+                    "Data Binding",
+                    "Lazy Loading",
+                    "Observables, Subject, behaviour subjects, etc",
+                    "Advantages & Disadvantages of TrackBy.",
+                    "Pipes, Custom pipes"
+                ]
+            },
+            {
+                "type": "Medium",
+                "topics": [
+                    "Content Projection.",
+                    "Execution Flow in Angular.",
+                    "Various files and its usage details in angular.",
+                    "Unit Testing steps.",
+                    "App's compatibility across different platforms.",
+                    "RxJS Library, operators",
+                    "Auth guards, can activate, etc."
+                ]
+            },
+            {
+                "type": "Advance",
+                "topics": [
+                    "Performance Optimization Techniques.",
+                    "Angular Design Pattern",
+                    "State management/ session maintenance",
+                    "Optimization"
+                ]
+            }
+        ]
+    },
+    {
+        "tech": "JavaScript",
+        "stack": [
+            {
+                "type": "Basic",
+                "topics": [
+                    "Callback",
+                    "Promises vs Observables",
+                    "Closure (Advantages & Disadvantages)",
+                    "Event Bubbling",
+                    "Arrow Function and other new ES6 concepts.",
+                    "Hoisting/Lexical Scope",
+                    "= vs == vs ===",
+                    "Let vs Const vs Var"
+                ]
+            }
+        ]
+    },
+    {
+        "tech": "CSS",
+        "stack": [
+            {
+                "type": "Basic",
+                "topics": [
+                    "CSS Pre-processors (SCSS/Sass/LESS)",
+                    "Box Sizing",
+                    "Positions",
+                    "Media-queries",
+                    "Flexbox"
+                ]
+            }
+        ]
+    },
+    {
+        "tech": "HTML",
+        "stack": [
+            {
+                "type": "Basic",
+                "topics": [
+                    "New form elements of HTML5",
+                    "Local/Session Storage",
+                    "Semantic Elements in HTML"
+                ]
+            }
+        ]
+    }
+]

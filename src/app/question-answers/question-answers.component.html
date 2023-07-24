@@ -1,0 +1,9 @@
+<div class="container">
+    <div *ngFor="let question of questions; let i = index;" class="row border rounded mb-4 shadow">
+        <div class="col p-4">
+            <h3 class="mb-0">Question {{i+1}} : {{question.question}}</h3>
+            <br>
+            <h5 class="card-text mb-auto">{{question.answer}}</h5>
+        </div>
+    </div>
+</div>
