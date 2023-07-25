@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" [ngClass]="{'bg-transparent': child1RLA.isActive}">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
         class="bi bi-exclude me-2" viewBox="0 0 16 16">
@@ -11,13 +11,16 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <!-- <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li> -->
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/topics" routerLinkActive="active"
+            ariaCurrentWhenActive="page">Topics</a>
+          <!-- <a class="nav-link active" aria-current="page" href="#">Topics</a> -->
         </li>
         <li class="nav-item">
+          <a class="nav-link" #child1RLA="routerLinkActive" routerLink="/portfolio" routerLinkActive="active" ariaCurrentWhenActive="page">Portfolio</a>
+          <!-- <a class="nav-link" href="#">Portfolio</a> -->
+        </li>
+        <!-- <li class="nav-item">
           <a class="nav-link disabled">Disabled</a>
         </li> -->
       </ul>

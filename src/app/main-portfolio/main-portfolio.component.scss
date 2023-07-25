@@ -1,0 +1,38 @@
+.header {
+    height: 10rem;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(20, 198, 149, 1) 0%, rgba(89, 196, 189, 1) 96%);
+}
+
+// p {
+//     display: inline-block;
+//     vertical-align: top;
+//     margin: 0;
+// }
+
+.word {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+}
+
+
+.wisteria {
+    color: #8e44ad;
+}
+
+.belize {
+    color: #2980b9;
+}
+
+.pomegranate {
+    color: #c0392b;
+}
+
+.green {
+    color: #16a085;
+}
+
+.midnight {
+    color: #2c3e50;
+}

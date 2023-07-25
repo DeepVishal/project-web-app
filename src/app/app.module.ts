@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MainContainerComponent } from './main-container/main-container.component';
 import { ImportantTopicsComponent } from './important-topics/important-topics.component';
 import { QuestionAnswersComponent } from './question-answers/question-answers.component';
+import { MainPortfolioComponent } from './main-portfolio/main-portfolio.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { QuestionAnswersComponent } from './question-answers/question-answers.co
     FooterComponent,
     MainContainerComponent,
     ImportantTopicsComponent,
-    QuestionAnswersComponent
+    QuestionAnswersComponent,
+    MainPortfolioComponent
   ],
   imports: [
     BrowserModule,
