@@ -24,10 +24,25 @@
     </div>
     <div class="container profile">
         <div class="row">
-            <div class="col-12 col-sm-2 offset-sm-1"><strong><em>Experience: </em></strong></div>
+            <div class="col-12 col-sm-2 offset-sm-1"><strong><em>About me: </em></strong></div>
             <div class="col-12 col-sm-9">
                 <app-card></app-card>
             </div>
         </div>
+        <hr>
+        <div class="row">
+            <div class="col-12 col-sm-2 offset-sm-1"><strong><em>Experience: </em></strong></div>
+            <div class="col-12 col-sm-9">
+                <app-card [load]="'experience'"></app-card>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-12 col-sm-2 offset-sm-1"><strong><em>Projects: </em></strong></div>
+            <div class="col-12 col-sm-9">
+                <app-card [load]="'project'"></app-card>
+            </div>
+        </div>
+        <hr>
     </div>
 </section>

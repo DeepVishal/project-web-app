@@ -1,20 +1,44 @@
-[
-    {
-        "company": "Wipro",
-        "tenure": "10 July 2018 - Present",
-        "logo": "./assets/Wipro_Primary Logo_Color_RGB.svg",
-        "designation": "Senior Software Engineer"
-    },
-    {
-        "company": "Capgemini",
-        "tenure": "10 March 2016 - 4 July 2018",
-        "logo": "./assets/CAP.PA.svg",
-        "designation": "Senior Software Engineer"
-    },
-    {
-        "company": "TCS",
-        "tenure": "17 Sept 2013 - 4 March 2016",
-        "logo": "./assets/TCS.NS.png",
-        "designation": "Senior Software Engineer"
-    }
-]
+{
+    "exp": [
+        {
+            "company": "Wipro India Pvt. Ltd",
+            "tenure": "05 July 2018 - Present",
+            "logo": "./assets/Wipro_Primary Logo_Color_RGB.svg",
+            "designation": "Senior Software Engineer"
+        },
+        {
+            "company": "Capgemini Technology Services India Limited",
+            "tenure": "10 March 2016 - 29 June 2018",
+            "logo": "./assets/CAP.PA.svg",
+            "designation": "Associate Consultant"
+        },
+        {
+            "company": "Tata Consultancy Services",
+            "tenure": "17 Sept 2013 - 04 March 2016",
+            "logo": "./assets/TCS.NS.png",
+            "designation": "Systems Engineer"
+        }
+    ],
+    "projects": [
+        {
+            "project": "Odyssey",
+            "client": "Citi",
+            "desc": "Framework to develop Schema based Mobile and Web App"
+        },
+        {
+            "project": "Product Listing and Details",
+            "client": "HP",
+            "desc": "Commercial website for product listing and details"
+        },
+        {
+            "project": "Global Service Platform (GSP)",
+            "client": "HSBC",
+            "desc": "Me to Company and Me to Not Me module for HongKong and Mexico Banking Site"
+        },
+        {
+            "project": "Point Of Sale App",
+            "client": "GE Healthcare",
+            "desc": "Commercial website for product listing and details"
+        }
+    ]
+}
