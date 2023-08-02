@@ -10,6 +10,7 @@ import { MainContainerComponent } from './main-container/main-container.componen
 import { ImportantTopicsComponent } from './important-topics/important-topics.component';
 import { QuestionAnswersComponent } from './question-answers/question-answers.component';
 import { MainPortfolioComponent } from './main-portfolio/main-portfolio.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MainPortfolioComponent } from './main-portfolio/main-portfolio.componen
     MainContainerComponent,
     ImportantTopicsComponent,
     QuestionAnswersComponent,
-    MainPortfolioComponent
+    MainPortfolioComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

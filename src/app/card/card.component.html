@@ -1,0 +1,21 @@
+<div class="row row-cols-1 row-cols-md-2 g-2">
+    <div class="col" *ngFor="let exp of exp;">
+        <div class="card">
+            <div class="card-body d-flex m-2">
+                <img class="me-2" [src]="exp.logo">
+                <div>
+                    <h5 class="card-title m-0">
+                        {{exp.designation}}
+                    </h5>
+                    <p class="card-text">{{exp.company}}</p>
+                </div>
+            </div>
+            <div class="card-body pt-0">
+                <p class="card-text"> <em>{{exp.tenure}}</em></p>
+            </div>
+            <div class="bg-transparent card-footer text-end text-primary lead">
+                View details
+            </div>
+        </div>
+    </div>
+</div>

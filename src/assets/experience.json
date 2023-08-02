@@ -1,0 +1,20 @@
+[
+    {
+        "company": "Wipro",
+        "tenure": "10 July 2018 - Present",
+        "logo": "./assets/Wipro_Primary Logo_Color_RGB.svg",
+        "designation": "Senior Software Engineer"
+    },
+    {
+        "company": "Capgemini",
+        "tenure": "10 March 2016 - 4 July 2018",
+        "logo": "./assets/CAP.PA.svg",
+        "designation": "Senior Software Engineer"
+    },
+    {
+        "company": "TCS",
+        "tenure": "17 Sept 2013 - 4 March 2016",
+        "logo": "./assets/TCS.NS.png",
+        "designation": "Senior Software Engineer"
+    }
+]
