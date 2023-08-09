@@ -23,38 +23,14 @@
         <hr>
     </div>
     <div class="container profile">
-        <div class="row">
-            <div class="col-12 col-sm-2 offset-sm-1"><strong><em>About me: </em></strong></div>
-            <div class="col-12 col-sm-9">
-                <app-card></app-card>
+        <ng-container *ngFor="let temp of templateTypes">
+            <div class="row">
+                <div class="col-12 col-sm-2 offset-sm-1"><strong><em>{{temp.name}}: </em></strong></div>
+                <div class="col-12 col-sm-9">
+                    <app-card [load]="temp.load"></app-card>
+                </div>
             </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-12 col-sm-2 offset-sm-1"><strong><em>Experience: </em></strong></div>
-            <div class="col-12 col-sm-9">
-                <app-card [load]="'experience'"></app-card>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-12 col-sm-2 offset-sm-1"><strong><em>Projects: </em></strong></div>
-            <div class="col-12 col-sm-9">
-                <app-card [load]="'project'"></app-card>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-12 col-sm-2 offset-sm-1"><strong><em>Education: </em></strong></div>
-            <div class="col-12 col-sm-9">
-                <app-card [load]="'education'"></app-card>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-sm-2 offset-sm-1"><strong><em>Personal Details: </em></strong></div>
-            <div class="col-12 col-sm-9">
-                <app-card [load]="'personal'"></app-card>
-            </div>
-        </div>
+            <hr>
+        </ng-container>
     </div>
 </section>

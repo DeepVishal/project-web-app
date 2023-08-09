@@ -41,7 +41,7 @@
                     <div class="text-end">
 
                         <hr>
-                        <p class="text-primary lead">View details</p>
+                        <p class="text-primary lead" (click)="modalService.open('modal-1', item)">View details</p>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
         </div>
     </ng-container>
     <ng-container *ngIf="load === 'education'">
-        <div class="w-100 rounded-3 p-0" *ngFor="let edu of education;">
+        <div class="w-100 table-responsive rounded-3 p-0" *ngFor="let edu of education;">
             <table class="table text-center rounded-3">
                 <thead class="table-light align-top rounded-3">
                     <tr class="rounded-3 border-light">

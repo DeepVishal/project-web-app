@@ -1,5 +1,9 @@
 p {
     margin: 0;
+
+    &.text-primary.lead {
+        cursor: pointer;
+    }
 }
 
 hr {

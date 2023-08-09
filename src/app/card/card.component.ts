@@ -1,6 +1,8 @@
 import { Component, OnInit, OnChanges, SimpleChanges, OnDestroy, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
+import { ModalService } from './../services/modal.service';
+
 export interface IExp {
   company: string,
   tenure: string,
@@ -48,8 +50,9 @@ export class CardComponent implements OnInit, OnChanges, OnDestroy {
   public personal: IPersonal[] | undefined = undefined;
   public url: string = '';
   public base: string = '';
+  
 
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient, protected modalService: ModalService) {
 
   }
 

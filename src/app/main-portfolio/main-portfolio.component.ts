@@ -1,4 +1,8 @@
 import { Component, OnInit, OnChanges, AfterContentInit, SimpleChanges, OnDestroy } from '@angular/core';
+export interface ITemp {
+  name: string;
+  load: 'about' | 'experience' | 'project' | 'education' | 'personal';
+}
 
 @Component({
   selector: 'app-main-portfolio',
@@ -9,6 +13,26 @@ export class MainPortfolioComponent implements OnInit, OnChanges, AfterContentIn
   public words: any;
   public wordArray: any = [];
   public currentWord = 0;
+  public templateTypes: ITemp[] = [{
+    name: 'About me',
+    load: 'about'
+  },
+  {
+    name: 'Experience',
+    load: 'experience'
+  },
+  {
+    name: 'Projects',
+    load: 'project'
+  },
+  {
+    name: 'Education',
+    load: 'education'
+  },
+  {
+    name: 'Personal Details',
+    load: 'personal'
+  }];
 
   constructor() {
 

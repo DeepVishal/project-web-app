@@ -1,0 +1,37 @@
+<div class="modal" style="display: block;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- <ng-content></ng-content> -->
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <div class="d-flex m-2">
+                        <img class="me-2" [src]="details.logo">
+                        <!-- <div> -->
+                        <h5 class="m-auto">
+                            {{details.company}}
+                        </h5>
+                        <!-- </div> -->
+                    </div>
+                </h5>
+                <button type="button" class="btn-close" (click)="close();"></button>
+            </div>
+            <div class="modal-body">
+                <div class="d-flex">
+                    <div>
+                        <h5 class="m-0">
+                            {{details.designation}}
+                        </h5>
+                    </div>
+                </div>
+                <div class="bg-transparent">
+                    <p class=""> <em>{{details.tenure}}</em></p>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" (click)="close();">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-backdrop show"></div>
