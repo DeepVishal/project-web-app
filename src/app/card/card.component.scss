@@ -5,14 +5,24 @@ p {
 hr {
     margin-bottom: 8px;
 }
+
 img {
     height: 3rem;
 }
 
-.card-footer{
+.card-footer {
     border-top: none;
 }
 
 .project .card {
     background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(20, 198, 149, 1) 0%, rgba(89, 196, 189, 1) 96%);
+}
+
+.table,
+.table> :not(caption)>*>* {
+    background-color: var(--bs-info-bg-subtle) !important;
+}
+
+tbody tr {
+    border-color: transparent !important;
 }

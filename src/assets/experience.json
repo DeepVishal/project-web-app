@@ -40,5 +40,38 @@
             "client": "GE Healthcare",
             "desc": "Commercial website for product listing and details"
         }
+    ],
+    "education": [
+        {
+            "education": "B. Tech in Electronics & Comm. Engineering",
+            "institution": "Guru Nanak Dev University (Main Campus), Amritsar",
+            "board": "Guru Nanak Dev University",
+            "yearOfPassing": "May 2013",
+            "mark": "72.32%"
+        },
+        {
+            "education": "10+2",
+            "institution": "St. Xavier's High School",
+            "board": "C.B.S.E.",
+            "yearOfPassing": "May 2009",
+            "mark": "76.4%"
+        },
+        {
+            "education": "10th",
+            "institution": "St. Xavier's High School",
+            "board": "C.B.S.E.",
+            "yearOfPassing": "May 2007",
+            "mark": "87.6%"
+        }
+    ],
+    "personalDetails": [
+        {
+            "nationality": "Indian",
+            "languages": [
+                "English",
+                "Hindi",
+                "Punjabi"
+            ]
+        }
     ]
 }

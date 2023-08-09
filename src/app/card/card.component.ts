@@ -14,9 +14,24 @@ export interface IProject {
   desc: string
 }
 
+export interface IEducation {
+  education: string,
+  institution: string,
+  board: string,
+  yearOfPassing: string,
+  mark: string
+}
+
+export interface IPersonal {
+  nationality: string,
+  languages: []
+}
+
 export interface IDetails {
   exp: IExp[],
-  projects: IProject[]
+  projects: IProject[],
+  education: IEducation[],
+  personalDetails: IPersonal[]
 }
 
 @Component({
@@ -25,10 +40,12 @@ export interface IDetails {
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit, OnChanges, OnDestroy {
-  @Input() load: 'about' | 'experience' | 'project' = 'about';
+  @Input() load: 'about' | 'experience' | 'project' | 'education' | 'personal' = 'about';
 
   public details: IExp[] | undefined = undefined;
   public projectDetails: IProject[] | undefined = undefined;
+  public education: IEducation[] | undefined = undefined;
+  public personal: IPersonal[] | undefined = undefined;
   public url: string = '';
   public base: string = '';
 
@@ -37,7 +54,7 @@ export class CardComponent implements OnInit, OnChanges, OnDestroy {
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-  
+
   }
 
   ngOnInit(): void {
@@ -47,6 +64,8 @@ export class CardComponent implements OnInit, OnChanges, OnDestroy {
       console.log(details);
       this.details = details.exp;
       this.projectDetails = details.projects;
+      this.education = details.education;
+      this.personal = details.personalDetails;
     })
 
   }

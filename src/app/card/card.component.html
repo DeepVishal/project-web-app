@@ -62,4 +62,46 @@
             </div>
         </div>
     </ng-container>
+    <ng-container *ngIf="load === 'education'">
+        <div class="w-100 rounded-3 p-0" *ngFor="let edu of education;">
+            <table class="table text-center rounded-3">
+                <thead class="table-light align-top rounded-3">
+                    <tr class="rounded-3 border-light">
+                        <th scope="col" class="rounded-3">Education</th>
+                        <th scope="col">Institution</th>
+                        <th scope="col">Board / University</th>
+                        <th scope="col" class="rounded-3">Year of Passing</th>
+                        <!-- <th scope="col">Marks</th> -->
+                    </tr>
+                </thead>
+                <tbody class="rounded-3">
+                    <tr class="rounded-3">
+                        <td scope="row" class="rounded-3">{{edu.education}}</td>
+                        <td>{{edu.institution}}</td>
+                        <td>{{edu.board}}</td>
+                        <td class="rounded-3">{{edu.yearOfPassing}}</td>
+                        <!-- <td>{{edu.mark}}</td> -->
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </ng-container>
+    <ng-container *ngIf="load === 'personal'">
+        <div class="w-100 rounded-3 p-0" *ngFor="let pr of personal;">
+            <table class="table text-center rounded-3">
+                <thead class="table-light align-top rounded-3">
+                    <tr class="rounded-3 border-light">
+                        <th scope="col" class="rounded-3">Nationality</th>
+                        <th scope="col" class="rounded-3">Languages</th>
+                    </tr>
+                </thead>
+                <tbody class="rounded-3">
+                    <tr class="rounded-3">
+                        <td scope="row" class="rounded-3">{{pr.nationality}}</td>
+                        <td class="rounded-3">{{pr.languages}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </ng-container>
 </div>
