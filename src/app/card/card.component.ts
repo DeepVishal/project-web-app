@@ -7,7 +7,8 @@ export interface IExp {
   company: string,
   tenure: string,
   logo: string,
-  designation: string
+  designation: string,
+  location: string
 }
 
 export interface IProject {
