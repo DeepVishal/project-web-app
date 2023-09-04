@@ -20,7 +20,23 @@ img {
 }
 
 .project .card {
-    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(20, 198, 149, 1) 0%, rgba(89, 196, 189, 1) 96%);
+    &._0 {
+        color: white;
+        background: #0A333D;
+    }
+
+    &._1 {
+        color: white;
+        background: #27596D;
+    }
+
+    &._2 {
+        background: #44EE77;
+    }
+
+    &._3 {
+        background: #10A83D;
+    }
 }
 
 .table,

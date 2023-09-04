@@ -21,7 +21,7 @@ export class ModalService {
         this.modals = this.modals.filter(x => x !== modal);
     }
 
-    open(id: string, details: any) {
+    open(id: string, details: any, dataType: any) {
         // open modal specified by id
         const modal = this.modals.find(x => x.id === id);
 
@@ -29,6 +29,7 @@ export class ModalService {
             throw new Error(`modal '${id}' not found`);
         } else {
             modal.details = details;
+            modal.dataType = dataType;
         }
 
 

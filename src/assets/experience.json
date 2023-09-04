@@ -43,24 +43,56 @@
     ],
     "projects": [
         {
-            "project": "Odyssey",
-            "client": "Citi",
-            "desc": "Framework to develop Schema based Mobile and Web App"
+            "client": "Citi Bank",
+            "project": "Odyssey Framework",
+            "description": "Citi has an in-house framework called Odyssey Framework, used to create Responsive Mobile and Web Applications.",
+            "responsibilities": [
+                "Led Team of 14 members, responsible for developing, maintaining and upgrading Odyssey Angular components.",
+                "Analyzed and Estimated requirements for quarterly and monthly releases.",
+                "Conducted daily Scrum Calls for Task tracking.",
+                "Developed as well as guided team members in component development.",
+                "Supervised implementation of various features."
+            ],
+            "tools": "Angular, TypeScript, SCSS, Bootstrap, HTML, GIT, JIRA"
         },
         {
-            "project": "Product Listing and Details",
-            "client": "HP",
-            "desc": "Commercial website for product listing and details"
+            "client": "Hewlett-Packard (HP)",
+            "project": "Product Listing and Details Page",
+            "description": "A Web Application to display Filter based Product Listing and Details providing the description, specification and other product related details.",
+            "responsibilities": [
+                "Led Team of 14 members, responsible for developing, maintaining and upgrading Odyssey Angular components.",
+                "Analyzed and Estimated requirements for quarterly and monthly releases.",
+                "Conducted daily Scrum Calls for Task tracking.",
+                "Developed as well as guided team members in component development.",
+                "Supervised implementation of various features."
+            ],
+            "tools": "Angular, TypeScript, SCSS, Bootstrap, HTML, GIT, JIRA"
         },
         {
+            "client": "Hong Kong and Shanghai Banking Corporation (HSBC)",
             "project": "Global Service Platform (GSP)",
-            "client": "HSBC",
-            "desc": "Me to Company and Me to Not Me module for HongKong and Mexico Banking Site"
+            "description": "A Banking Web application where Hong Kong and Mexico Banking customers can do Self to Company and Self to Another Account Transaction.",
+            "responsibilities": [
+                "Led Team of 14 members, responsible for developing, maintaining and upgrading Odyssey Angular components.",
+                "Analyzed and Estimated requirements for quarterly and monthly releases.",
+                "Conducted daily Scrum Calls for Task tracking.",
+                "Developed as well as guided team members in component development.",
+                "Supervised implementation of various features."
+            ],
+            "tools": "Angular, TypeScript, SCSS, Bootstrap, HTML, GIT, JIRA"
         },
         {
-            "project": "Point Of Sale App",
-            "client": "GE Healthcare",
-            "desc": "Commercial website for product listing and details"
+            "client": "General Electric (GE)",
+            "project": "Bio Processes Part Advisory",
+            "description": "A Web application interface to ingest file using UI and analyze data using Highcharts.",
+            "responsibilities": [
+                "Led Team of 14 members, responsible for developing, maintaining and upgrading Odyssey Angular components.",
+                "Analyzed and Estimated requirements for quarterly and monthly releases.",
+                "Conducted daily Scrum Calls for Task tracking.",
+                "Developed as well as guided team members in component development.",
+                "Supervised implementation of various features."
+            ],
+            "tools": "Angular, TypeScript, SCSS, Bootstrap, HTML, GIT, JIRA"
         }
     ],
     "education": [

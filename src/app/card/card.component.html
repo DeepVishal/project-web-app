@@ -52,23 +52,29 @@
                     <div class="text-end">
 
                         <hr>
-                        <p class="text-primary lead" (click)="modalService.open('modal-1', item)">View details</p>
+                        <p class="text-primary lead" (click)="modalService.open('modal-1', item, 'exp')">View details
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </ng-container>
     <ng-container *ngIf="load === 'project'">
-        <div class="col" *ngFor="let project of projectDetails;">
-            <div class="card h-100">
-                <div class="card-body m-2">
+        <div class="col" *ngFor="let project of projectDetails; let i = index;">
+            <div class="card h-100 _{{i}}">
+                <!-- [ngClass]="{'first': i === 0, 'second': i === 1,'third': i === 2, 'forth': i === 3}"> -->
+                <div class="card-body m-2 pb-0 mb-0">
                     <h5 class="card-title m-0">
                         {{project.project}}
                     </h5>
                     <p class="card-text">{{project.client}}</p>
+                    <p class="card-text"> <em>{{project.description}}</em></p>
                 </div>
                 <div class="bg-transparent card-footer">
-                    <p class="card-text"> <em>{{project.desc}}</em></p>
+
+                    <hr>
+                    <p class="text-primary lead" (click)="modalService.open('modal-1', project, 'project')">View details
+                    </p>
                 </div>
             </div>
         </div>

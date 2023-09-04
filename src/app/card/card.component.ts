@@ -13,7 +13,9 @@ export interface IExp {
 export interface IProject {
   project: string,
   client: string;
-  desc: string
+  description: string,
+  responsibilities: string[],
+  tools: string;
 }
 
 export interface IEducation {

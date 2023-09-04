@@ -8,7 +8,7 @@
                         <img class="me-2" [src]="details?.logo">
                         <!-- <div> -->
                         <h5 class="m-auto">
-                            {{details?.company}}
+                            {{dataType === 'project' ? details?.project : details?.company}}
                         </h5>
                         <!-- </div> -->
                     </div>
@@ -26,9 +26,16 @@
                 <div class="bg-transparent">
                     <p class=""> <em>{{details?.tenure}}</em></p>
                     <p class="">Client : {{details?.client}}</p>
-                    <p class="">Position : {{details?.position}}</p>
+                    <p class="" *ngIf="dataType === 'exp'">Position : {{details?.position}}</p>
                     <p class="">Project : {{details?.project}}</p>
                     <p class="">Project Description : {{details?.description}}</p>
+                    <p class="" *ngIf="dataType === 'project'">Responsibilites :</p>
+                    <ng-container *ngIf="dataType === 'project'">
+                        <ul>
+                            <li *ngFor=" let x of details.responsibilities">{{x}}</li>
+                        </ul>
+                    </ng-container>
+                    <p class="" *ngIf="dataType === 'project'">Tech and Tools : {{details?.tools}}</p>
                 </div>
             </div>
 
