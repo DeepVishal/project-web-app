@@ -60,39 +60,35 @@
             "project": "Product Listing and Details Page",
             "description": "A Web Application to display Filter based Product Listing and Details providing the description, specification and other product related details.",
             "responsibilities": [
-                "Led Team of 14 members, responsible for developing, maintaining and upgrading Odyssey Angular components.",
-                "Analyzed and Estimated requirements for quarterly and monthly releases.",
-                "Conducted daily Scrum Calls for Task tracking.",
-                "Developed as well as guided team members in component development.",
-                "Supervised implementation of various features."
+                "Worked as lead UI developer for team of 5 to develop web application.",
+                "Angular project from scratch.",
+                "Utilized Angular Universal to create Server Side Rendering (SSR) build.",
+                "Moved application from development to production."
             ],
-            "tools": "Angular, TypeScript, SCSS, Bootstrap, HTML, GIT, JIRA"
+            "tools": "Angular, TypeScript, HTML, CSS, Bootstrap, SVN, Node, PM2, Akamai Load balancer"
         },
         {
             "client": "Hong Kong and Shanghai Banking Corporation (HSBC)",
             "project": "Global Service Platform (GSP)",
             "description": "A Banking Web application where Hong Kong and Mexico Banking customers can do Self to Company and Self to Another Account Transaction.",
             "responsibilities": [
-                "Led Team of 14 members, responsible for developing, maintaining and upgrading Odyssey Angular components.",
-                "Analyzed and Estimated requirements for quarterly and monthly releases.",
-                "Conducted daily Scrum Calls for Task tracking.",
-                "Developed as well as guided team members in component development.",
-                "Supervised implementation of various features."
+                "Analyzed requirements and estimated in Agile methodology.",
+                "Understood full application and configured flow for specific entity and module.",
+                "Showcased demo to client.",
+                "Emerged as Lead and handled Front End Team of 4."
             ],
-            "tools": "Angular, TypeScript, SCSS, Bootstrap, HTML, GIT, JIRA"
+            "tools": "Dojo, HTML, CSS, SVN"
         },
         {
             "client": "General Electric (GE)",
             "project": "Bio Processes Part Advisory",
             "description": "A Web application interface to ingest file using UI and analyze data using Highcharts.",
             "responsibilities": [
-                "Led Team of 14 members, responsible for developing, maintaining and upgrading Odyssey Angular components.",
-                "Analyzed and Estimated requirements for quarterly and monthly releases.",
-                "Conducted daily Scrum Calls for Task tracking.",
-                "Developed as well as guided team members in component development.",
-                "Supervised implementation of various features."
+                "Implemented Angular Framework for project.",
+                "Developed screens as per GE guidelines using HTML, CSS, Bootstrap.",
+                "Used Highcharts library to draw charts based on data."
             ],
-            "tools": "Angular, TypeScript, SCSS, Bootstrap, HTML, GIT, JIRA"
+            "tools": "Angular, HTML, CSS, Highcharts"
         }
     ],
     "education": [
