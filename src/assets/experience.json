@@ -1,22 +1,44 @@
 {
     "exp": [
         {
-            "company": "Wipro India Pvt. Ltd",
-            "tenure": "05 July 2018 - Present",
+            "company": "Wipro Limited Singapore Branch",
+            "tenure": "11 November 2019 - Present",
             "logo": "./assets/Wipro_Primary Logo_Color_RGB.svg",
-            "designation": "Senior Software Engineer"
+            "designation": "Technical Lead",
+            "client": "Citi Bank",
+            "position": "Onsite Lead",
+            "project": "Odyssey Framework",
+            "description": "Citi has an in-house framework called Odyssey Framework, used to create Responsive Mobile and Web Applications."
+        },
+        {
+            "company": "Wipro India Pvt. Ltd",
+            "tenure": "05 July 2018 - 10 November 2019",
+            "logo": "./assets/Wipro_Primary Logo_Color_RGB.svg",
+            "designation": "Senior Software Engineer",
+            "client": "Hewlett-Packard (HP)",
+            "position": "Lead",
+            "project": "Product Listing and Details Page",
+            "description": "A Web Application to display Filter based Product Listing and Details providing the description, specification and other product related details."
         },
         {
             "company": "Capgemini Technology Services India Limited",
             "tenure": "10 March 2016 - 29 June 2018",
             "logo": "./assets/CAP.PA.svg",
-            "designation": "Associate Consultant"
+            "designation": "Associate Consultant",
+            "client": "Hong Kong and Shanghai Banking Corporation (HSBC)",
+            "position": "UI Lead",
+            "project": "Global Service Platform (GSP)",
+            "description": "A Banking Web application where Hong Kong and Mexico Banking customers can do Self to Company and Self to Another Account Transaction."
         },
         {
             "company": "Tata Consultancy Services",
             "tenure": "17 Sept 2013 - 04 March 2016",
             "logo": "./assets/TCS.NS.png",
-            "designation": "Systems Engineer"
+            "designation": "Systems Engineer",
+            "client": "General Electric (GE)",
+            "position": "Developer",
+            "project": "Bio Processes Part Advisory",
+            "description": "A Web application interface to ingest file using UI and analyze data using Highcharts."
         }
     ],
     "projects": [

@@ -5,10 +5,10 @@
             <div class="modal-header">
                 <h5 class="modal-title">
                     <div class="d-flex m-2">
-                        <img class="me-2" [src]="details.logo">
+                        <img class="me-2" [src]="details?.logo">
                         <!-- <div> -->
                         <h5 class="m-auto">
-                            {{details.company}}
+                            {{details?.company}}
                         </h5>
                         <!-- </div> -->
                     </div>
@@ -19,12 +19,16 @@
                 <div class="d-flex">
                     <div>
                         <h5 class="m-0">
-                            {{details.designation}}
+                            {{details?.designation}}
                         </h5>
                     </div>
                 </div>
                 <div class="bg-transparent">
-                    <p class=""> <em>{{details.tenure}}</em></p>
+                    <p class=""> <em>{{details?.tenure}}</em></p>
+                    <p class="">Client : {{details?.client}}</p>
+                    <p class="">Position : {{details?.position}}</p>
+                    <p class="">Project : {{details?.project}}</p>
+                    <p class="">Project Description : {{details?.description}}</p>
                 </div>
             </div>
 
