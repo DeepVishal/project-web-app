@@ -13,6 +13,7 @@ import { QuestionAnswersComponent } from './question-answers/question-answers.co
 import { MainPortfolioComponent } from './main-portfolio/main-portfolio.component';
 import { CardComponent } from './card/card.component';
 import { ModalComponent } from './modal/modal.component';
+import { PlayGroundComponent } from './play-ground/play-ground.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ModalComponent } from './modal/modal.component';
     QuestionAnswersComponent,
     MainPortfolioComponent,
     CardComponent,
-    ModalComponent
+    ModalComponent,
+    PlayGroundComponent
   ],
   imports: [
     BrowserModule,
