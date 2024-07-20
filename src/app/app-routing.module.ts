@@ -6,9 +6,9 @@ import { MainPortfolioComponent } from './main-portfolio/main-portfolio.componen
 import { PlayGroundComponent } from './play-ground/play-ground.component';
 
 const routes: Routes = [
-  { path: 'topics', component: MainContainerComponent },
+  // { path: 'topics', component: MainContainerComponent },
   { path: 'portfolio', component: MainPortfolioComponent },
-  { path: 'play', component: PlayGroundComponent },
+  // { path: 'play', component: PlayGroundComponent },
   { path: '', redirectTo: '/portfolio', pathMatch: 'full' },
 ];
 
